@@ -7,14 +7,14 @@ Below, there's a simple tutorial to help you run this project on your machine!
 
 Before getting started, make sure you have the following installed:
 
-- [Python](https://www.python.org/downloads/)
-- [Git](https://git-scm.com/downloads/)
+- [JupyterLab](https://jupyter.org/)
+- [Git](https://git-scm.com/)
 
 ## Installation
 
-### Installing Python
+### Installing JupyterLab
 
-If you haven't installed Python yet, you can download and install it from the official website: [Python Downloads](https://www.python.org/downloads/).
+If you haven't installed JupyterLab yet, you can download and install it from the official website: [JupyterLab Downloads](https://jupyter.org/install).
 
 ### Installing Git
 
@@ -28,40 +28,16 @@ To clone this repository to your local machine, open a terminal or command promp
 git clone https://github.com/0110101001110000/Machine-learning-simple-regression-projects/
 ```
 
-## Installing Required Python Libraries
+## Running the Code in JupyterLab
 
-To simplify the installation of the required Python libraries, a `requirements.txt` file is included in this repository. This file lists all the necessary dependencies.
+Follow these steps to run the code in JupyterLab:
 
-To install all the required libraries, follow these steps:
+  1. Open JupyterLab.
 
-1. Ensure you have `pip` installed with Python. It's usually included with most Python installations.
+  2. Navigate to the project directory in the JupyterLab interface.
 
-2. Navigate into the project directory using the cd command:
+  3. Open the main.ipynb notebook file (or the notebook file corresponding to the project you want to run).
 
-```bash
-cd Machine-learning-simple-regression-projects
-```
+  4. Run the cells in the notebook by clicking the "Run" button or pressing Shift+Enter.
 
-3. Run the following command to install all the required libraries:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Running the Code
-
-After installing the required libraries, choose a project to run:
-
-```bash
-cd project-name
-```
-
-Replace project-name with the name of the project that you want to run.
-
-Once you're inside the project directory, you can run the Python code using the following command:
-
-```bash
-python main.py
-```
-
-This will execute the main.py file located in the project directory.
+That's it! You should now be able to run the machine learning projects in JupyterLab.
